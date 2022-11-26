@@ -1,19 +1,24 @@
 package hello;
 
 import org.joda.time.LocalTime;
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.io.File;
 
 public class HelloWorld {
 
 	static Logger logger;
 
 	public static void main(String[] args) {
-		PropertyConfigurator.configure("log4j.properties");
-		logger =  Logger.getLogger(HelloWorld.class);
+		System.setProperty("log4j2.configurationFile",new File("log4j.properties").toString());
+		logger = LogManager.getLogger(HelloWorld.class);
 		LocalTime currentTime = new LocalTime();
-		logger.info("The current local time is: " + currentTime);
+		String mensaje=String.format("The current local time is: %s",currentTime);
+		logger.info(mensaje);
 		Greeter greeter = new Greeter();
-		logger.info(greeter.sayHello());
+		String respuesta = greeter.sayHello();
+		if(!respuesta.isEmpty())
+			logger.info(respuesta);
 	}
 }

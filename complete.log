@@ -2,3 +2,9 @@
 2022-11-25 23:33:24,200 [main] INFO  hello.HelloWorld - Hello world!
 2022-11-25 23:37:02,740 [main] INFO  hello.HelloWorld - The current local time is: 23:37:02.714
 2022-11-25 23:37:02,741 [main] INFO  hello.HelloWorld - Hello world!
+2022-11-26T01:38:25,522 [main] INFO  hello.HelloWorld - The current local time is: 01:38:25.500
+2022-11-26T01:38:25,526 [main] INFO  hello.HelloWorld - Hello world!
+2022-11-26T01:55:32,323 [main] INFO  hello.HelloWorld - The current local time is: 01:55:32.302
+2022-11-26T01:55:32,331 [main] INFO  hello.HelloWorld - Hello world pieri!
+2022-11-26T02:01:21,446 [main] INFO  hello.HelloWorld - The current local time is: 02:01:21.421
+2022-11-26T02:01:21,450 [main] INFO  hello.HelloWorld - Hello world pieri!
