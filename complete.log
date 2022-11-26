@@ -1,0 +1,4 @@
+2022-11-25 23:33:24,199 [main] INFO  hello.HelloWorld - The current local time is: 23:33:24.164
+2022-11-25 23:33:24,200 [main] INFO  hello.HelloWorld - Hello world!
+2022-11-25 23:37:02,740 [main] INFO  hello.HelloWorld - The current local time is: 23:37:02.714
+2022-11-25 23:37:02,741 [main] INFO  hello.HelloWorld - Hello world!
